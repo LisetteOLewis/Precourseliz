@@ -1,3 +1,4 @@
+
 //In these first 6 questions, replace `null` with the answer
 
 //create a string variable, it can contain anything
@@ -27,9 +28,13 @@ const newModulo = 21 % 5 === 1 ;
 
 function returnString(str) {
   //simply return the string provided: str
+  return str;
 }
 
 function add(x, y) {
+  x = 2;
+  y = 3;
+  return x+y;
   // x and y are numbers
   // add x and y together and return the value
   // code here
