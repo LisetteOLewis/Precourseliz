@@ -32,28 +32,38 @@ function returnString(str) {
 }
 
 function add(x, y) {
-  x = 2;
-  y = 3;
-  return x+y;
   // x and y are numbers
   // add x and y together and return the value
   // code here
+    const sum = x + y;
+      return sum;
 }
+add(1, 5); // 6
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  const sum = x - y;
+      return sum;
 }
+substract(1, 5); //4
+
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  const product = x*y;
+  return product;
 }
+multiply(5,1);//5
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  const product = x/y;
+  return product;
 }
+divide(10,5);//2
 
 function areEqual(x, y) {
   // return true if x and y are the same
