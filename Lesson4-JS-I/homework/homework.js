@@ -43,10 +43,10 @@ add(1, 5); // 6
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  const sum = x - y;
-      return sum;
+  const difference = x - y;
+      return difference;
 }
-substract(1, 5); //4
+const differenceValue = subtractsTwoNumbers(10, 5); 
 
 
 function multiply(x, y) {
