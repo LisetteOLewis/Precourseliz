@@ -43,10 +43,12 @@ add(1, 5); // 6
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
+  x = 10;
+  y = 5;
+  
   const difference = x - y;
       return difference;
 }
-const differenceValue = subtractsTwoNumbers(10, 5); 
 
 
 function multiply(x, y) {
@@ -66,9 +68,8 @@ function divide(x, y) {
 divide(10,5);//2
 
 function areEqual(x, y) {
-  // return true if x and y are the same
-  // otherwise return false
-  // code here
+If ("x" === "y");
+  alert (areEqual): // returns false
 }
 
 function areSameLength(str1, str2) {
@@ -98,6 +99,10 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
+  if (num % 2 == 0 ) {
+    Return true;
+  }
+  Return false;
 }
 
 function isOdd(num) {
