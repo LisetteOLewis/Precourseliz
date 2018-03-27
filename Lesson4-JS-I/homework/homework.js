@@ -21,9 +21,9 @@ const newModulo = 21 % 5 === 1 ;
 
 
 
-//In the next 22 problems you will compete the function. All of your code will go inside of the function braces. 
+//In the next 22 problems you will compete the function. All of your code will go inside of the function braces.
 //Make sure you use return when the prompt asks you to.
-//hint: console.log() will NOT work. 
+//hint: console.log() will NOT work.
 //Do not change any of the function names
 
 function returnString(str) {
@@ -35,41 +35,49 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
+  x = 1;
+  y = 5;
     const sum = x + y;
       return sum;
 }
-add(1, 5); // 6
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
   x = 10;
   y = 5;
-  
   const difference = x - y;
       return difference;
 }
 
 
+
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
+  x = 10;
+  y = 5;
   const product = x*y;
   return product;
 }
-multiply(5,1);//5
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
+  x = 10;
+  y = 5;
   const product = x/y;
   return product;
 }
-divide(10,5);//2
 
 function areEqual(x, y) {
-If ("x" === "y");
-  alert (areEqual): // returns false
+  // return true if x and y are the same
+  // otherwise return false
+  // code here
+  x = 5;
+  y = 5;
+  If (x===y)
+    return ("True"); // returns false
 }
 
 function areSameLength(str1, str2) {
@@ -99,10 +107,6 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (num % 2 == 0 ) {
-    Return true;
-  }
-  Return false;
 }
 
 function isOdd(num) {
@@ -155,9 +159,9 @@ function getGreeting(name) {
   // code here
 }
 
-// The next three questions will have you implement math area formulas. 
+// The next three questions will have you implement math area formulas.
 // If you can't remember these area formulas then head over to Google.
- 
+
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
